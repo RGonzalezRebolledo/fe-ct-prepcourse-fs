@@ -18,6 +18,11 @@ module.exports = esNuloOIndefinido;
 
 console.log(esNuloOIndefinido());
 
+// // duda por que asi no funciona
+// if (valor === null  || valor === undefined) {
+//   return true;
+// }
+
 
 
 

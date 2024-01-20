@@ -11,4 +11,4 @@ function esNumeroEntero(numero) {
 
 module.exports = esNumeroEntero;
 
-console.log(esNumeroEntero(3.4));
+console.log(esNumeroEntero(3));
