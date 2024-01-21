@@ -11,7 +11,6 @@ function productoEntreNúmeros(a, b) {
 
     if (b - i >= a){
     factorial *= (b - i);
- 
    }
    i++ 
   }
