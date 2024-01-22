@@ -14,7 +14,7 @@ var i = 0;
       return num;
     }
 
-  } while (i <= 7);
+  } while (i < 8);
 
 }
 
