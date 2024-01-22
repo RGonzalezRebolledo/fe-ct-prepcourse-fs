@@ -4,7 +4,7 @@ function diasEnMes(mes) {
   // PISTA: Usa un bucle do-while para validar que el mes ingresado sea válido.
   // Tu código:
 
-var i = 0;
+// var i = 0;
   // do {
   //       i++
   //   console.log ('1. pasada:' + i);
