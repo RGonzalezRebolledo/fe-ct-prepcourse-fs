@@ -7,18 +7,20 @@ function sumarHastaNConBreak(n) {
 var suma = 0;
 
     for (var i = 0; i <= n; i++){
- 
+
+      if (n > 100){
+        n === 100;
+        console.log ('supera 100')
+        break;
+      }
+      
     suma += (i);
        
-    if (suma > 100){
-      break;
-     }
-
   }
   return suma
 }
 module.exports = sumarHastaNConBreak;
 
-console.log (sumarHastaNConBreak(15))
+console.log (sumarHastaNConBreak(101))
 
 // NOTA: este test no devuelve el valor correcto cuando n = 20

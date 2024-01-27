@@ -4,8 +4,8 @@ function sumarHastaN(n) {
   // Tu código:
   var suma = 0;
 
-  for (var i = 0; i <= n; i++){
-      suma += (n - i);
+  for (var i = 1; i <= n; i++){
+      suma += (i);
     }
   return suma
 }
